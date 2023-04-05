@@ -5,22 +5,22 @@ import "@fontsource/poppins/300.css";
 function New() {
   return (
     <div className="border-b-1 mb-3 px-2 shadow-lg w-full ">
-      <Box
+     <Box
         sx={{
           height: "50px",
           fontWeight: "bold",
           marginX: "4px",
         }}
       >
-        <Stack spacing={1} direction="row">
-          <button className="bg-[#065BC9] font-bold text-[11px] text-white w-[177px] h-[42px] rounded-md">
+        <div className="flex justify-between">
+          <button className="bg-[#065BC9] font-bold text-[11px] text-white w-[177px] h-[42px] mx-1 rounded-md">
             {" "}
             Deliveries in Progress
           </button>
-          <button className="bg-[#F2F3F8] font-bold text-[11px] text-black w-[177px] h-[42px] rounded-md">
+          <button className="bg-[#F2F3F8] font-bold text-[11px] text-black w-[177px] h-[42px] mx-1 rounded-md">
             Completed Deliveries
           </button>
-        </Stack>
+        </div>
       </Box>
 
       <Box
